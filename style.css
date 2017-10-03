@@ -1,0 +1,298 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.box1 {
+  margin-left: 30px;
+  position: absolute;
+  width: 240px;
+  top: 100px;
+  margin-right: 30px;
+  margin-bottom: 	28px;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.imgbox1{
+  width: 220px;
+	height: 150px;
+  border: 1px solid;
+  margin-left: 9px;
+  margin-top: 5px
+}
+
+.textbox1 {
+  text-align: center;
+	margin-top: -6px;
+}
+
+.textbox1p {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+
+.box2 {
+  margin-left: 300px;
+  position: absolute;
+  width: 240px;
+  top: 100px;
+  margin-right: 10px;
+  margin-bottom: 28px;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.imgbox2 {
+  width: 220px;
+	height: 150px;
+  border: 1px solid;
+  margin-left: 9px;
+  margin-top: 5px
+}
+
+.textbox2 {
+  text-align: center;
+	margin-top: -6px;
+}
+
+.textbox2p {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.box3 {
+  margin-left: 570px;
+  position: absolute;
+  width: 240px;
+  top: 100px;
+  margin-right: 10px;
+  margin-bottom: 28px;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.imgbox3 {
+  width: 220px;
+	height: 150px;
+  border: 1px solid;
+  margin-left: 9px;
+  margin-top: 5px
+}
+
+.textbox3 {
+  text-align: center;
+	margin-top: -6px;
+}
+
+.textbox3p {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.box4 {
+  margin-left: 840px;
+  position: absolute;
+  width: 240px;
+  top: 100px;
+  margin-right: 0px;
+  margin-bottom: 28px;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.imgbox4 {
+  width: 220px;
+	height: 150px;
+  border: 1px solid;
+  margin-left: 9px;
+  margin-top: 5px
+}
+
+.textbox4 {
+  text-align: center;
+	margin-top: -6px;
+}
+
+.textbox4p {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.p8 {
+  margin-right: 600px;
+}
+
+.imgi8 {
+  width: 50%;
+}
+
+.specs8 {
+  position: absolute;
+  left: 850px;
+  top: 200px;
+}
+
+.specs81 {
+  position: absolute;
+  left: 850px;
+  top: 260px;
+}
+
+.iPhoneXimg {
+  width: 60%;
+}
+
+.iphX {
+  margin-right: 600px;
+}
+
+.samsungs8img {
+  width: 35%;
+}
+
+.Samsungs8p {
+  margin-right: 600px;
+}
+
+.specss8 {
+  position: absolute;
+  left: 850px;
+  top: 200px;
+}
+
+.specss8p {
+  position: absolute;
+  left: 850px;
+  top: 260px;
+}
+
+.Note8img {
+  width: 50%;
+}
+
+.Note8p {
+  margin-right: 600px;
+}
+
+.Note8h1 {
+  position: absolute;
+  left: 850px;
+  top: 200px;
+}
+
+.Note8p1 {
+  position: absolute;
+  left: 850px;
+  top: 260px;
+}
+
+.hobbyp {
+  margin-right: 500px;
+}
+
+.imgreparatie {
+  width: 30%;
+}
+
+.imgsamsungs8 {
+  width: 30%;
+  position: absolute;
+  right: 30px;
+  top: 150px;
+}
+
+.advertentie {
+  width: 17%;
+  position: absolute;
+  right: 20px;
+  top: 150px;
+}
+
+.footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 0px 0px 0px 0px;
+  margin-left: 0px;
+}
+
+.foot {
+  text-align: left;
+  color: white;
+  padding: 16px;
+  font-size: 10px;
+}
+
+.footer1 {
+  position: static;
+  bottom: 100px;
+  width: 100%;
+  background-color: black;
+  padding: 0px 0px 0px 0px;
+  margin-left: -20px;
+  margin-top: 545px;
+}
+
+.foot1 {
+  text-align: left;
+  color: white;
+  padding: 16px;
+  font-size: 10px;
+}
